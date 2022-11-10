@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Nova Public Website',
   tagline: 'WORK IN PROGRESS',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://public-website-liard.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -57,21 +57,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Nova Corporation',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Nova Corporation logo',
+          src: 'img/nova.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/tecom', label: 'TECOM', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://public-website-liard.vercel.app/',
             label: 'GitHub',
             position: 'right',
           },
@@ -93,7 +93,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
+                label: '',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
@@ -103,19 +103,6 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
